@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Lab6.Classes{
     public class Snake : Reptile{
-        
+        public int 
     }
 }
