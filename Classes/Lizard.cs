@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lab6.Classes{
-    public class Lizard{
-        
+    public class Lizard : Reptile{
+        public bool HasLegs {get; set;} = true;
     }
 }
