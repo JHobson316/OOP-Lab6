@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lab6.Classes{
-    public class Ostrich : Avian{
+    public abstract class Ostrich : Avian{
         
     }
 }

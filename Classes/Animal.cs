@@ -8,6 +8,5 @@ namespace Lab6.Classes{
     public abstract class Animal{
         public abstract string Eats {get; set;}
         public abstract string Sound {get; set;}
-        
     }
 }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 using OOPLab6.Interfaces;
 
 namespace Lab6.Classes{
-    class Reptile : Animal{
-        public string Color {get; set;}
-        public string Species{get; set;}
+    public abstract class Reptile : Animal{
+        public override string Eats {get; set;} = "Meat and bugs";
+        public override string Sound {get; set;} = "(Usually Silent)";
+        public abstract string Color {get; set;}
+        public abstract string Species {get; set;}
     }
 }

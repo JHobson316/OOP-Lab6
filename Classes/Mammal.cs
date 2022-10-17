@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lab6.Classes{
-    public class Mammal : Animal{
-
+    public abstract class Mammal : Animal{
+        public override string Eats {get; set;} = " ";
+        public override string Sound {get; set;} = " ";
+        public abstract string LandOrSea {get; set;}
     }
 }
